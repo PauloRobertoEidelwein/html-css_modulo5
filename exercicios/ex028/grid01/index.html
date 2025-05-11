@@ -6,12 +6,16 @@
     <title>Grid Layout na prática</title>
     <Style>
         div.container{
-            border: 3px solid blue;
-            height: 250px;
+            border: 2px solid rgb(54, 188, 95);
+            height: 350px;
             display: grid;
             grid-template-columns: auto auto auto;
             grid-template-rows: auto auto auto;
-            gap: 5px;
+            gap: 8px;
+            align-items: stretch;
+            justify-items: stretch;
+            align-content: stretch;
+            justify-content: space-around;
         }
 
         div.item{
